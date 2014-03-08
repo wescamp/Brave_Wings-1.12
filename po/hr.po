@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Brave_Wings-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-17 02:53+0100\n"
+"POT-Creation-Date: 2014-03-08 23:18+0100\n"
 "PO-Revision-Date: 2013-05-01 01:30+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -45,7 +45,7 @@ msgstr ""
 #: Brave_Wings/_main.cfg:22
 msgid ""
 "\n"
-"Required Wesnoth version: 1.11.7 or later"
+"Required Wesnoth version: 1.11.11 or later"
 msgstr ""
 
 #. [campaign]: id=Brave_Wings
@@ -1887,7 +1887,7 @@ msgstr ""
 #. [message]: id=bw_fighter_trait, speaker=narrator
 #. [message]: id=bw_glider_trait, speaker=narrator
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1093
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1215
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1209
 #: Brave_Wings/utils/bw-utils.cfg:507 Brave_Wings/utils/bw-utils.cfg:581
 #: Brave_Wings/utils/bw-utils.cfg:655 Brave_Wings/utils/bw-utils.cfg:729
 msgid "You may choose the next action."
@@ -1895,31 +1895,31 @@ msgstr ""
 
 #. [option]: id=BW_path_choice, speaker=narrator
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1097
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1219
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1213
 msgid "Keep exploring the current cave."
 msgstr ""
 
 #. [message]: speaker=narrator
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1101
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1223
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1217
 msgid "The party will keep going in this cave."
 msgstr ""
 
 #. [option]: id=BW_path_choice, speaker=narrator
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1117
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1239
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1233
 msgid "Skip the next cave scenario."
 msgstr ""
 
 #. [message]: speaker=narrator
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1121
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1243
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1237
 msgid "The party kept exploring the cave, and later, found a way out."
 msgstr ""
 
 #. [message]: id=Flamon
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1126
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1248
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1242
 #: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:732
 msgid ""
 "Drakes, I cannot go out of the cave, but I appreciate your help for my "
