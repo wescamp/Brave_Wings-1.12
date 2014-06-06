@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Brave_Wings-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-08 23:18+0100\n"
-"PO-Revision-Date: 2013-11-24 10:16-0800\n"
+"POT-Creation-Date: 2014-06-06 11:50-0400\n"
+"PO-Revision-Date: 2014-05-07 05:41-0800\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -24,7 +24,7 @@ msgid "BW"
 msgstr "BW"
 
 #. [campaign]: id=Brave_Wings
-#: Brave_Wings/_main.cfg:16
+#: Brave_Wings/_main.cfg:21
 msgid ""
 "On an island northwest of Wesnoth, the drakes have been living peacefully, "
 "aside from the occasional Naga skirmish. However, an unexpected guest will "
@@ -52,14 +52,13 @@ msgstr ""
 "ブレーブ・ウイングス、バージョン:"
 
 #. [campaign]: id=Brave_Wings
-#: Brave_Wings/_main.cfg:22
-#, fuzzy
+#: Brave_Wings/_main.cfg:23
 msgid ""
 "\n"
 "Required Wesnoth version: 1.11.11 or later"
 msgstr ""
 "\n"
-"必要とされるウェスノスバージョン: 1.11.2 +"
+"必要とされるウェスノスバージョン: 1.11.11 +"
 
 #. [campaign]: id=Brave_Wings
 #: Brave_Wings/_main.cfg:28
@@ -185,7 +184,7 @@ msgid "race^Carapaces"
 msgstr ""
 
 #. [race]: id=carapace
-#: Brave_Wings/bw-race.cfg:15
+#: Brave_Wings/bw-race.cfg:16
 msgid ""
 "Carapaces, that are organized by turtle and crab like monsters under lord "
 "carapace, are guards on the ocean, often appear in some river or swamps. All "
@@ -203,9 +202,8 @@ msgstr ""
 
 #. [race]: id=talon
 #: Brave_Wings/bw-race.cfg:27
-#, fuzzy
 msgid "race+female^Talon"
-msgstr "水生生物"
+msgstr "かぎづめ族"
 
 #. [race]: id=talon
 #: Brave_Wings/bw-race.cfg:28
@@ -226,19 +224,20 @@ msgstr ""
 msgid "Shimmering Isle"
 msgstr "シマーリング島"
 
-#. [side]: type=Drake Lord, id=Eagi_Nyess
 #. [side]: type=Drake Outcast, id=Eagi_Nyess
+#. [side]: type=Drake Lord, id=Eagi_Nyess
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:38
 #: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:24
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:32
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:38 Brave_Wings/utils/bw-utils.cfg:9
+#: Brave_Wings/utils/bw-utils.cfg:9
 msgid "Drakes"
 msgstr "ドレーク軍"
 
-#. [side]: type=Drake Lord, id=Eagi_Nyess
 #. [side]: type=Drake Outcast, id=Eagi_Nyess
+#. [side]: type=Drake Lord, id=Eagi_Nyess
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:41
 #: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:27
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:35
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:41
 msgid "Eagi-Nyess"
 msgstr "イーギニェッス"
 
@@ -261,12 +260,10 @@ msgstr "復活"
 
 #. [regenerate]: id=recovery
 #: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:57
-#, fuzzy
 msgid ""
 "The unit will heal itself 4 HP per turn. If it is poisoned, it will remove "
 "the poison instead of healing."
 msgstr ""
-"復活:\n"
 "取得したユニットは、ターン毎に４HP回復します。毒を盛られた場合は回復は有りま"
 "せんが、解毒します。"
 
@@ -296,11 +293,11 @@ msgstr ""
 msgid "Aquatics"
 msgstr "水生生物団"
 
-#. [side]: type=Naga Myrmidon, id=Grissileii
 #. [side]: type=Naga Myrmidon, id=Oxpeii
 #. [side]: type=Naga Warrior, id=Xopkne
-#: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:152
+#. [side]: type=Naga Myrmidon, id=Grissileii
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:53
+#: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:152
 #: Brave_Wings/scenarios/14_Epilogue.cfg:85
 msgid "Nagas"
 msgstr "ナーガ部隊"
@@ -312,9 +309,8 @@ msgstr ""
 
 #. [side]
 #: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:171
-#, fuzzy
 msgid "Locals"
-msgstr "地元のオーク軍"
+msgstr "地元軍"
 
 #. [message]: id=Eagi_Nyess
 #. [message]: speaker=unit
@@ -358,36 +354,36 @@ msgstr "海洋生物をいくつか倒す"
 #. [objective]: condition=lose
 #: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:280
 #: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:637
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:201
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:966
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:280
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:532
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:805
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:201
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:966
 msgid "Death of Eagi-Nyess"
 msgstr "イーギニェッスが没"
 
 #. [objective]: condition=lose
 #: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:284
 #: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:641
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:205
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:970
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:284
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:536
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:809
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:205
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:970
 msgid "Death of Orofarnië"
 msgstr "オロファーニーが没"
 
 #. [objective]: condition=lose
-#: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:288
-#: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:645
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:209
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:974
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:214
 #: Brave_Wings/scenarios/10_Mermaid_Commander.cfg:260
+#: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:288
+#: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:645
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:272
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:288
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:540
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:813
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:209
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:974
 #: Brave_Wings/utils/bw-utils.cfg:35 Brave_Wings/utils/bw-utils.cfg:58
 #: Brave_Wings/utils/bw-utils.cfg:84
 msgid "Turns run out"
@@ -433,7 +429,6 @@ msgstr ""
 
 #. [message]: id=Xopkne
 #: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:566
-#, fuzzy
 msgid "Aha, Drakes! We will take over here today!"
 msgstr "ハハッ、ドレーク共!　今日こそここを頂くぞ!"
 
@@ -462,7 +457,7 @@ msgid "... Naga... friend..."
 msgstr "...　ナーガ...、友達...。"
 
 #. [message]: id=Eagi_Nyess
-#: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:616
+#: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:617
 msgid ""
 "No matter! My brave drakes will defeat you anyway.\n"
 "Braves, be ready! Westwards!"
@@ -471,10 +466,10 @@ msgstr ""
 "勇者達よ、戦闘準備、西方じゃ!"
 
 #. [objective]: condition=win
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:461
 #: Brave_Wings/scenarios/01_Shimmering_Isle.cfg:633
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:197
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:954
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:461
 msgid "Defeat the enemy leader"
 msgstr "敵のリーダーを倒す"
 
@@ -545,21 +540,21 @@ msgstr ""
 "彼らの予測出来ないモノでした。"
 
 #. [side]
+#. [side]: type=Skeletal Dragon, id=Kragash Varg
 #. [side]: type=Death Knight, id=Vam
-#. [side]: type=Lich, id=Yuomi
-#. [side]: type=Merman Outcast, id=Ikateus
 #. [side]: type=Merman Outcast, id=Neptus
 #. [side]: type=Phantom Dragon, id=Phantom Dragon
-#. [side]: type=Skeletal Dragon, id=Kragash Varg
+#. [side]: type=Lich, id=Yuomi
 #. [side]: type=Spectre, id=Bam
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:71
+#. [side]: type=Merman Outcast, id=Ikateus
 #: Brave_Wings/scenarios/10_Mermaid_Commander.cfg:231
-#: Brave_Wings/scenarios/12_Melphine's_Home_Seas.cfg:55
-#: Brave_Wings/scenarios/12_Melphine's_Home_Seas.cfg:78
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:59
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:176
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:225
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:243
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:71
+#: Brave_Wings/scenarios/12_Melphine's_Home_Seas.cfg:55
+#: Brave_Wings/scenarios/12_Melphine's_Home_Seas.cfg:78
 msgid "Undead"
 msgstr "アンデット"
 
@@ -644,7 +639,7 @@ msgstr ""
 "ウゥゥッ...。"
 
 #. [message]: id=Yuomi
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:670
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:671
 msgid ""
 "Never surrender? How can you resist? I cannot control your spirits, but what "
 "can you do with those bodies? \n"
@@ -688,7 +683,6 @@ msgstr "アンギロン"
 
 #. [message]: id=Wyngilla
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:756
-#, fuzzy
 msgid "Sir! we just arrived back... What? How? What is happening here?"
 msgstr "閣下、ただ今戻り...、な、何?　何が起こっているんだ?"
 
@@ -732,8 +726,7 @@ msgstr ""
 "かを学ぶのさ。消え去る準備をしやがれ!"
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:946
-#, fuzzy
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:947
 msgid ""
 "You can influence the traits for drakes recruited in this scenario only. \n"
 "In addition, if you have leveled up any drakes since the beginning, one each "
@@ -744,26 +737,26 @@ msgstr ""
 "トに別のドレークとして追加されています。"
 
 #. [objective]: condition=lose
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:958
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:206
 #: Brave_Wings/scenarios/10_Mermaid_Commander.cfg:244
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:256
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:268
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:520
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:797
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:958
 #: Brave_Wings/utils/bw-utils.cfg:23 Brave_Wings/utils/bw-utils.cfg:42
 #: Brave_Wings/utils/bw-utils.cfg:64
 msgid "Death of Wyngilla"
 msgstr "ウィンギラが没"
 
 #. [objective]: condition=lose
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:962
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:210
 #: Brave_Wings/scenarios/10_Mermaid_Commander.cfg:248
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:260
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:272
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:524
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:801
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:962
 #: Brave_Wings/utils/bw-utils.cfg:27 Brave_Wings/utils/bw-utils.cfg:46
 #: Brave_Wings/utils/bw-utils.cfg:68
 msgid "Death of Kasii"
@@ -776,7 +769,6 @@ msgstr "ああぁぁっ...。島の終わりじゃ。"
 
 #. [message]: speaker=unit
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:1069
-#, fuzzy
 msgid "Aaaack... I'll never be able to talk with the birds again."
 msgstr "ああぁぁっ...。もう鳥達と話す事ができない。"
 
@@ -799,12 +791,11 @@ msgstr "大丈夫ですか、閣下?"
 
 #. [message]: id=Eagi_Nyess
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:1105
-#, fuzzy
 msgid ""
 "No. No, not really. I don't feel like I am alive. Kasii!, can you heal us?"
 msgstr ""
-"生きてる気がせんので、あまり大丈夫とは、言えない...。\n"
-"ケェイシー、我々を戻せるか?"
+"生きてる気がせんので、あまり大丈夫とは、言えない...。ケェイシー、我々を戻せる"
+"か?"
 
 #. [message]: id=Kasii
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:1109
@@ -854,8 +845,7 @@ msgstr ""
 "はこの島を背負って行かねば成らんのだから。"
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:1129
-#, fuzzy
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:1130
 msgid ""
 "Thank you, Sir! I promise that we will be cautious. \n"
 "Kasii! Can you come with me? I need your knowledge to find the potion."
@@ -955,8 +945,8 @@ msgstr "今は、はっきりと聞こえたぞ。助けを求める者を放っ
 
 #. [objective]: condition=win
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:202
-#: Brave_Wings/scenarios/04_Saving_Relatives.cfg:235
 #: Brave_Wings/scenarios/05_Air_Battle.cfg:108
+#: Brave_Wings/scenarios/04_Saving_Relatives.cfg:235
 msgid "Move Wyngilla onto the sign"
 msgstr "ウィンギラをサインへ移動。"
 
@@ -1071,13 +1061,11 @@ msgstr "人魚を助ける"
 
 #. [message]: speaker=Kasii
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:547
-#, fuzzy
 msgid "Good! They don't suspect we are here yet."
 msgstr "良かった。どうやら奴らは我々にまだ気がついて無い様だ。"
 
 #. [message]: id=Oxpeii
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:591
-#, fuzzy
 msgid ""
 "Drakes? Why are you here? You have a large island already. Hmmm... but you "
 "do save me a long journey to destroy you."
@@ -1087,10 +1075,10 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:692
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:222
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:251
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1065
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1187
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:222
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:251
 #: Brave_Wings/scenarios/12_Melphine's_Home_Seas.cfg:656
 msgid "Aaaargh..."
 msgstr "あらぁぁぁ...。"
@@ -1132,14 +1120,14 @@ msgid "Naxiszy"
 msgstr ""
 
 #. [side]: type=Troll Warrior, id=Zuug
-#: Brave_Wings/scenarios/04_Saving_Relatives.cfg:111
 #: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:180
+#: Brave_Wings/scenarios/04_Saving_Relatives.cfg:111
 msgid "Zuug"
 msgstr ""
 
 #. [side]: type=Troll Warrior, id=Zuug
-#: Brave_Wings/scenarios/04_Saving_Relatives.cfg:113
 #: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:181
+#: Brave_Wings/scenarios/04_Saving_Relatives.cfg:113
 msgid "Trolls"
 msgstr "トロル部隊"
 
@@ -1160,7 +1148,6 @@ msgstr ""
 
 #. [message]: id=Naxiszy
 #: Brave_Wings/scenarios/04_Saving_Relatives.cfg:214
-#, fuzzy
 msgid "You Trollsss! Out! Away from my landsss!"
 msgstr "トロル、コラ!　ワテの領地から消え失せヤ!"
 
@@ -1188,13 +1175,13 @@ msgstr ""
 "フィン!　危険だから自分から離れない様に。"
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/04_Saving_Relatives.cfg:279
 #: Brave_Wings/scenarios/06_Western_Union.cfg:163
+#: Brave_Wings/scenarios/11_Orcish_Newport.cfg:252
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:470
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:622
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:682
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:882
-#: Brave_Wings/scenarios/11_Orcish_Newport.cfg:252
+#: Brave_Wings/scenarios/04_Saving_Relatives.cfg:279
 #: Brave_Wings/scenarios/12_Melphine's_Home_Seas.cfg:128
 msgid "Defeat all enemy leaders"
 msgstr "すべての敵を倒す"
@@ -1214,11 +1201,11 @@ msgstr "メルフィン!　そこは危険だ!　火山からもっと離れろ!
 msgid "Eeek! Oh, my!"
 msgstr "ああ、分かったわ...。"
 
-#. [message]: id=Kasii
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/04_Saving_Relatives.cfg:676
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:453
+#. [message]: id=Kasii
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:641
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:453
+#: Brave_Wings/scenarios/04_Saving_Relatives.cfg:676
 msgid "Uh-oh!"
 msgstr "うおっ!"
 
@@ -1326,8 +1313,8 @@ msgid ""
 msgstr "警戒だ、ドレーク達!　この辺りは何が居るのか分からんぞ。"
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:200
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:264
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:200
 msgid "Survive"
 msgstr "生き残る"
 
@@ -1482,14 +1469,14 @@ msgstr "ヴィアラエント司令官"
 msgid "Drongayga"
 msgstr ""
 
-#. [side]: type=Direwolf Rider, id=Pogdish
-#. [side]: type=Orcish Warlord, id=Bogdush
 #. [side]: type=Orcish Warlord, id=Drongayga
+#. [side]: type=Orcish Warlord, id=Bogdush
+#. [side]: type=Direwolf Rider, id=Pogdish
 #. [side]: type=Orcish Warlord, id=Gushnak
 #: Brave_Wings/scenarios/06_Western_Union.cfg:86
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:94
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:122
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:192
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:94
 msgid "Local Orcs"
 msgstr "地元のオーク軍"
 
@@ -1498,8 +1485,8 @@ msgstr "地元のオーク軍"
 msgid "Gaddong"
 msgstr ""
 
-#. [side]: type=Orcish Slayer, id=Daddong
 #. [side]: type=Orcish Slayer, id=Gaddong
+#. [side]: type=Orcish Slayer, id=Daddong
 #: Brave_Wings/scenarios/06_Western_Union.cfg:119
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:86
 msgid "Orcish Scouts"
@@ -1602,20 +1589,20 @@ msgstr "私が同行するぞ、ダルタス。モンタスの研究所はここ
 msgid "You can recruit <i>Dwarvish Guardsmen</i>."
 msgstr "ドワーフの警護兵を招集出来ます。"
 
-#. [scenario]: id=07_Dwarvish_Bandits
-#. [side]
-#. [side]: type=Dwarvish Bandit Chief, id=Gomatas
-#. [side]: type=Dwarvish Bandit Chief, id=Gomthaas
-#. [side]: type=Dwarvish Berserker, id=Nardrol
 #. [side]: type=Dwarvish Berserker, id=Narril
+#. [side]: type=Dwarvish Bandit Chief, id=Gomatas
+#. [side]: type=Dwarvish Berserker, id=Nardrol
+#. [side]
+#. [side]: type=Dwarvish Bandit Chief, id=Gomthaas
 #. [side]: type=Dwarvish Berserker, id=Pelalis
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:4
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:50
+#. [scenario]: id=07_Dwarvish_Bandits
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:47
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:56
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:104
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:134
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:47
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:186
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:4
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:50
 msgid "Dwarvish Bandits"
 msgstr "ドワーフの盗賊"
 
@@ -1660,7 +1647,6 @@ msgstr "見ろ!　西部同盟軍だ!　武装!"
 
 #. [objective]: condition=win
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:186
-#, fuzzy
 msgid ""
 "Defeat the Dwarvish Bandit leader, then move Dultas to the entrance of the "
 "laboratory"
@@ -1668,7 +1654,6 @@ msgstr "ドワーフの盗賊の頭を倒し、それからダルタスを研修
 
 #. [objectives]
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:190
-#, fuzzy
 msgid "extra bonus for defeating the orc leader"
 msgstr "オークのリーダーを倒すと、ボーナスがあります"
 
@@ -1678,8 +1663,8 @@ msgid "The Laboratory"
 msgstr "研究所"
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:230
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:910
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:230
 msgid "Go to hell!"
 msgstr "地獄へ落ちろ!!"
 
@@ -1689,9 +1674,9 @@ msgid "Move Dultas to the entrance of the hidden laboratory"
 msgstr "ダルタスを秘密の研究所の入り口へ移動"
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:259
 #: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:340
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:1078
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:259
 msgid "You gain a bonus of 100 gold!"
 msgstr "100ゴールドのボーナスです!"
 
@@ -1712,8 +1697,8 @@ msgid "I also worry about Thunderthrow."
 msgstr "それから、サンダースローもだ。"
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:316
 #: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:237
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:316
 msgid "....."
 msgstr ".....。"
 
@@ -1748,7 +1733,6 @@ msgstr "怪物達"
 
 #. [message]: id=Dultas
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:221
-#, fuzzy
 msgid "Blast! 'Tis empty."
 msgstr "じゃじゃじゃ!　もぬけのからだ。"
 
@@ -1881,7 +1865,6 @@ msgstr "その爆弾は、重そうだ。自分が持って行こう。"
 
 #. [objectives]
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:474
-#, fuzzy
 msgid "All humans and dwarves will leave the party after a few scenarios."
 msgstr "人間とドワーフのユニットは、あと少しでドレーク達と離れます"
 
@@ -1911,7 +1894,6 @@ msgstr "マンバ槍"
 
 #. [object]: id=mamba_spear
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:564
-#, fuzzy
 msgid "mamba spear poisons enemies"
 msgstr "マンバ槍は、敵に｢毒｣を与えます。"
 
@@ -1927,29 +1909,28 @@ msgstr "こちらは、槍の名手のみ扱う事が出来ます。"
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:694
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:707
 msgid "ark halberd"
-msgstr "アークハルバート"
+msgstr "アークハルバード"
 
 #. [object]: id=ark_halberd
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:665
 msgid "This halberd chops up enemies well"
-msgstr "このハルバートは、切れ味抜群です。"
+msgstr "このハルバードは、切れ味抜群です。"
 
 #. [object]: id=ark_halberd
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:682
 msgid "This is useful only to a warrior that is highly skilled with halberds."
-msgstr "こちらは、ハルバート使いの名手のみ扱う事が出来ます。"
+msgstr "こちらは、ハルバード使いの名手のみ扱う事が出来ます。"
 
 #. [message]: id=Dultas
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:733
-#, fuzzy
 msgid "This be my brother's grog, not a weapon."
-msgstr "それは、オラが言ってた、兄貴が造ってる酒だ。"
+msgstr "それは、オラが言っでた、兄貴が造ってる酒だ。"
 
 #. [message]: id=Dultas
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:771
 msgid ""
 "This bomb be very powerful, but very heavy. I think we should leave it here."
-msgstr "この爆弾は、威力はすごいがとても重いべサ。ここサ置いてくべ。"
+msgstr "この爆弾は、威力はすごいがとでも重いべサ。ここサ置いでくべ。"
 
 #. [message]: id=Anatas
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:787
@@ -1980,8 +1961,8 @@ msgstr ""
 msgid "To the Greenwood"
 msgstr "グリーンウッドへ"
 
-#. [unit]: type=Dwarvish Fighter, id=Tridril
 #. [unit]: type=Dwarvish Steelclad, id=Tridril
+#. [unit]: type=Dwarvish Fighter, id=Tridril
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:855
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:869
 msgid "Tridril"
@@ -1989,7 +1970,6 @@ msgstr ""
 
 #. [message]: id=Tridril
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:899
-#, fuzzy
 msgid "Thank ye!"
 msgstr "ありがとうがんす!"
 
@@ -1997,7 +1977,7 @@ msgstr "ありがとうがんす!"
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:903
 msgid "Good lad! Yer alive! Do ye know where Montas and Thunderthrow be?"
 msgstr ""
-"良かったべ!　生き残りが他にも居た。御主ならモンタスとサンダースローがどこサ"
+"良かったべ!　生ぎ残りが他にも居た。御主ならモンタスとサンダースローがどこサ"
 "行ったか知ってるんじゃないか?"
 
 #. [message]: id=Tridril
@@ -2007,7 +1987,7 @@ msgid ""
 "away. Probably with the Thunderthrow."
 msgstr ""
 "恐れながら、知りません。奴らがオラをここサ入れた時は、モンタス博士は、オラと"
-"まだ一緒だったども、その後、彼はサンダースローと共にどこかサ連れて行かれた"
+"まだ一緒だったども、その後、彼はサンダースローと共にどこかサ連れて行がれた"
 "ダ。"
 
 #. [message]: id=Dultas
@@ -2073,8 +2053,8 @@ msgid "You may recruit Fire Guardians so long as Flamon is alive."
 msgstr "フレイモンが生きてる間は、｢炎の守護者｣ の召集が可能です。"
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1046
 #: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:694
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1046
 msgid "Aliee... I vanish again..."
 msgstr "アレー...。また消えるわい...。"
 
@@ -2085,10 +2065,10 @@ msgid "A good victory, everyone! Now we must go north... quickly."
 msgstr "よし、勝利だ、急いで北へ向かおう。"
 
 #. [message]: id=BW_path_choice, speaker=narrator
+#. [message]: id=bw_glider_trait, speaker=narrator
+#. [message]: id=bw_fighter_trait, speaker=narrator
 #. [message]: id=bw_burner_trait, speaker=narrator
 #. [message]: id=bw_clasher_trait, speaker=narrator
-#. [message]: id=bw_fighter_trait, speaker=narrator
-#. [message]: id=bw_glider_trait, speaker=narrator
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1093
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1209
 #: Brave_Wings/utils/bw-utils.cfg:507 Brave_Wings/utils/bw-utils.cfg:581
@@ -2121,9 +2101,9 @@ msgid "The party kept exploring the cave, and later, found a way out."
 msgstr "この連合軍は、この洞窟を進み、出口から外に出ます。"
 
 #. [message]: id=Flamon
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:732
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1126
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1242
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:732
 msgid ""
 "Drakes, I cannot go out of the cave, but I appreciate your help for my "
 "revenge. So long."
@@ -2138,7 +2118,6 @@ msgstr "この隠し洞窟に居るのは誰だべ?　西部同盟軍か?"
 
 #. [message]: id=Dultas
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:1166
-#, fuzzy
 msgid "Where be Montas and the Thunderthrow?"
 msgstr "モンタスとサンダースローはどこだ?"
 
@@ -2235,13 +2214,11 @@ msgstr ""
 
 #. [objective]: condition=win
 #: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:276
-#, fuzzy
 msgid "Move Wyngilla or Dultas to the exit at the northwest"
 msgstr "ウィンギラかダルタスを北西の出口へ移動"
 
 #. [message]: id=Dultas
 #: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:336
-#, fuzzy
 msgid ""
 "More o' their treasure! Take it we should. When we finish them, they won't "
 "need it anymore."
@@ -2340,7 +2317,6 @@ msgstr ""
 
 #. [message]: id=Tyngel
 #: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:620
-#, fuzzy
 msgid ""
 "You're a bandit! Or in league with them! Tell us where Montas and the "
 "Thunderthrow weapon are!"
@@ -2383,8 +2359,8 @@ msgstr "自分らは出来るだけ急いだ方が良さそうだ。"
 msgid "Everyone, move this way quickly!"
 msgstr "こっちだ、皆、急げ!"
 
-#. [scenario]: id=09_Thunderthrow
 #. [unit]: type=Thunderthrow, id=Thunderthrow
+#. [scenario]: id=09_Thunderthrow
 #. [unit_type]: id=Thunderthrow, race=mechanical
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:4
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:398
@@ -2587,12 +2563,11 @@ msgstr ""
 
 #. [message]: id=Montas
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:806
-#, fuzzy
 msgid ""
 "Good. A mistake it was, to create that weapon. Too destructive and far too "
 "dangerous."
 msgstr ""
-"良がった。オラはあの兵器を造るべきではなかった。あれは、破滅を呼び込むし、危"
+"良がった。オラはあの兵器を造るべきではながった。あれは、破滅を呼び込むし、危"
 "険すぎる。"
 
 #. [unit]: type=Elvish Scout, id=Evandel
@@ -2606,7 +2581,6 @@ msgstr ""
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:829
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:937
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:1030
-#, fuzzy
 msgid ""
 "Sir! A report from the Eastern Union! The orcish Lord of Grisbi has agreed "
 "to a peace treaty. We are not to attack or invade each other anymore. The "
@@ -2866,8 +2840,8 @@ msgstr "喜んでお受けします、マダム。"
 msgid "You can now recruit <i>Merman Hunters</i> and <i>Mermaid Initiates</i>."
 msgstr "｢マーマンの漁師｣ と ｢マーメイドの下級術師｣ を召集できます。"
 
-#. [unit]: type=Hunting Carapace, id=Mavloss
 #. [unit]: type=Hunting Carapace, id=Mavloss_fake
+#. [unit]: type=Hunting Carapace, id=Mavloss
 #: Brave_Wings/scenarios/10_Mermaid_Commander.cfg:537
 #: Brave_Wings/scenarios/10_Mermaid_Commander.cfg:592
 msgid "Mavloss"
@@ -2890,8 +2864,7 @@ msgstr ""
 "ようとしてる様です。其方はその一人では無いでしょう?"
 
 #. [message]: id=Mavloss_fake
-#: Brave_Wings/scenarios/10_Mermaid_Commander.cfg:571
-#, fuzzy
+#: Brave_Wings/scenarios/10_Mermaid_Commander.cfg:572
 msgid ""
 "Never, Electranda! Of course not. We carapace-guards are sworn enemies of "
 "orcs, and also trolls and undead. \n"
@@ -2942,13 +2915,12 @@ msgstr "アオォォォー!　アオォォォー!　アオー!"
 
 #. [message]: id=Gurm
 #: Brave_Wings/scenarios/10_Mermaid_Commander.cfg:821
-#, fuzzy
 msgid ""
 "What? Orcs build city for ogres? If we help?...  That sound good! Ogres will "
 "help."
 msgstr ""
-"何?　オークが応戦したら我々に町を作ってくれるだと...?\n"
-"了解だ。オーガ、オーク味方する。"
+"何?　オークが応戦したら我々に町を作ってくれるだと...?　了解だ。オーガ、オーク"
+"味方する。"
 
 #. [message]: speaker=narrator
 #: Brave_Wings/scenarios/10_Mermaid_Commander.cfg:844
@@ -3054,9 +3026,8 @@ msgstr "オーク４号"
 
 #. [unit]: type=Orcish Galleon, id=Orcs 5
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:220
-#, fuzzy
 msgid "Orc 5"
-msgstr "オーク１号"
+msgstr "オーク5号"
 
 #. [side]
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:236
@@ -3159,7 +3130,6 @@ msgstr "フッ...。奴らがオーク側に付くのは分かっていた事だ
 
 #. [message]: speaker=unit
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:533
-#, fuzzy
 msgid "Uh!"
 msgstr "うおっ!"
 
@@ -3187,7 +3157,6 @@ msgstr "カチャ、カチャ!　<i><small>了解!</small></i>"
 
 #. [message]: id=Melphine
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:628
-#, fuzzy
 msgid ""
 "That is a scout for the carapace-guards. I don't think he is a friend of us, "
 "though..."
@@ -3258,7 +3227,6 @@ msgstr ""
 #. [message]: id=Wyngilla
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:787
 #: Brave_Wings/scenarios/11_Orcish_Newport.cfg:831
-#, fuzzy
 msgid "Thank you! Mermen and humans can now move around here safely."
 msgstr "こちらこそ!　これでマーマンや人間達が安全にここを通れるだろう。"
 
@@ -3470,7 +3438,6 @@ msgstr "何と...、珍しい。特にこの辺りでは。"
 #. [message]: speaker=narrator
 #: Brave_Wings/scenarios/12_Melphine's_Home_Seas.cfg:593
 #: Brave_Wings/scenarios/12_Melphine's_Home_Seas.cfg:638
-#, fuzzy
 msgid "You might have good luck at another sunken ship."
 msgstr "もう一方の沈んだ船で、何か良い事があるかも知れません。"
 
@@ -3771,8 +3738,7 @@ msgid "Eeeeeeik, Eeik! <small><i>Here you are, Drake Lord!</i></small>"
 msgstr "キッキキキー、キキキッ。<small><i>ドレークの君主、どうぞ!</i></small>"
 
 #. [message]: id=Eagi_Nyess
-#: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:888
-#, fuzzy
+#: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:889
 msgid ""
 "Good! Thank you! This feels so much better. With time, we might even be "
 "healed perfectly. \n"
@@ -3783,7 +3749,7 @@ msgstr ""
 "オロファーニー、取れ!"
 
 #. [regenerate]: id=recovery
-#: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:955
+#: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:956
 msgid ""
 "Recovery:\n"
 "The unit will heal itself 4 HP per turn. If it is poisoned, it will remove "
@@ -3840,9 +3806,8 @@ msgstr "ああぁぁっく...。こう成ってはダメだ!"
 
 #. [message]: speaker=unit
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:1110
-#, fuzzy
 msgid "Aaaack... I'll never be able to talk to birds again."
-msgstr "ああぁぁっ...。もう鳥達と話す事ができない。"
+msgstr "ああぁぁっ...。もう二度と鳥達と話す事ができない。"
 
 #. [message]: speaker=unit
 #: Brave_Wings/scenarios/13_Legend_of_a_Dragon.cfg:1123
@@ -3978,8 +3943,8 @@ msgstr ""
 msgid "Water Castle"
 msgstr ""
 
-#. [terrain_type]: id=bw_shallow_water_castle
 #. [terrain_type]: id=bw_water_castle
+#. [terrain_type]: id=bw_shallow_water_castle
 #: Brave_Wings/terrains/bw-terrains.cfg:112
 #: Brave_Wings/terrains/bw-terrains.cfg:126
 msgid "Water Encampment Castle"
@@ -4079,8 +4044,8 @@ msgstr ""
 msgid "dummy_unit^Gate Straight"
 msgstr ""
 
-#. [object]
 #. [unit_type]: id=Holy Water, race=mechanical
+#. [object]
 #: Brave_Wings/units/Bw_Dummies.cfg:53 Brave_Wings/utils/bw-items.cfg:10
 msgid "Holy Water"
 msgstr "聖水"
@@ -4111,14 +4076,14 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Brave_Wings/units/Bw_Dwarvish_Annalist.cfg:29
 #: Brave_Wings/units/Bw_Dwarvish_Loremaster.cfg:33
+#: Brave_Wings/units/Bw_Dwarvish_Annalist.cfg:29
 msgid "morningstar"
 msgstr "モーニングスター"
 
 #. [attack]: type=impact
-#: Brave_Wings/units/Bw_Dwarvish_Annalist.cfg:106
 #: Brave_Wings/units/Bw_Dwarvish_Loremaster.cfg:116
+#: Brave_Wings/units/Bw_Dwarvish_Annalist.cfg:106
 msgid "bolas"
 msgstr ""
 
@@ -4162,15 +4127,15 @@ msgid "fire claws"
 msgstr "炎の爪"
 
 #. [attack]: type=fire
-#: Brave_Wings/units/Bw_Fire_Guardian.cfg:34
-#: Brave_Wings/units/drakes/Drake_Adventurer.cfg:155
-#: Brave_Wings/units/drakes/Drake_Alchemist.cfg:177
-#: Brave_Wings/units/drakes/Drake_Brave.cfg:159
-#: Brave_Wings/units/drakes/Drake_Hero.cfg:160
-#: Brave_Wings/units/drakes/Drake_Lord.cfg:140
-#: Brave_Wings/units/drakes/Drake_Ranger.cfg:157
 #: Brave_Wings/units/drakes/Great_Drake.cfg:164
+#: Brave_Wings/units/drakes/Drake_Alchemist.cfg:177
+#: Brave_Wings/units/drakes/Drake_Lord.cfg:140
+#: Brave_Wings/units/drakes/Drake_Hero.cfg:160
+#: Brave_Wings/units/drakes/Drake_Ranger.cfg:157
+#: Brave_Wings/units/drakes/Drake_Adventurer.cfg:155
+#: Brave_Wings/units/drakes/Drake_Brave.cfg:159
 #: Brave_Wings/units/drakes/Sword_Drake.cfg:147
+#: Brave_Wings/units/Bw_Fire_Guardian.cfg:34
 msgid "fire breath"
 msgstr "火炎ブレス"
 
@@ -4187,8 +4152,8 @@ msgstr ""
 
 #. [attack]: type=blade
 #. [attack]: type=pierce
-#: Brave_Wings/units/Bw_Puma.cfg:33 Brave_Wings/units/Hydra.cfg:29
-#: Brave_Wings/units/Water_Savage.cfg:34
+#: Brave_Wings/units/Bw_Puma.cfg:33 Brave_Wings/units/Water_Savage.cfg:34
+#: Brave_Wings/units/Hydra.cfg:29
 msgid "fangs"
 msgstr "きば"
 
@@ -4222,7 +4187,7 @@ msgid "phantom"
 msgstr ""
 
 #. [hides]: id=bw_phantom
-#: Brave_Wings/units/Ghost_Ship.cfg:32
+#: Brave_Wings/units/Ghost_Ship.cfg:34
 msgid ""
 "Phantom: \n"
 "This unit can hide in coastal reef, and remain undetected by its enemies.\n"
@@ -4248,8 +4213,8 @@ msgid "Heroic Carapace is the warrior in the race."
 msgstr ""
 
 #. [attack]: type=pierce
-#: Brave_Wings/units/Hero.cfg:27 Brave_Wings/units/Javelin.cfg:25
-#: Brave_Wings/units/Javelin.cfg:34
+#: Brave_Wings/units/Javelin.cfg:25 Brave_Wings/units/Javelin.cfg:34
+#: Brave_Wings/units/Hero.cfg:27
 msgid "trident"
 msgstr "トライデント"
 
@@ -4259,8 +4224,8 @@ msgid "morning star"
 msgstr "モーニングスター"
 
 #. [attack]: type=impact
-#: Brave_Wings/units/Hero.cfg:45 Brave_Wings/units/Javelin.cfg:46
-#: Brave_Wings/units/Water_Savage.cfg:43
+#: Brave_Wings/units/Javelin.cfg:46 Brave_Wings/units/Water_Savage.cfg:43
+#: Brave_Wings/units/Hero.cfg:45
 msgid "water breath"
 msgstr ""
 
@@ -4295,14 +4260,14 @@ msgid "Infiltrative Carapace."
 msgstr ""
 
 #. [attack]: type=impact
-#: Brave_Wings/units/Infiltrative_Carapace.cfg:35
 #: Brave_Wings/units/Monstrous_Carapce.cfg:29
+#: Brave_Wings/units/Infiltrative_Carapace.cfg:35
 msgid "pincers"
 msgstr "はさみ"
 
 #. [attack]: type=impact
-#: Brave_Wings/units/Infiltrative_Carapace.cfg:44
 #: Brave_Wings/units/Monstrous_Carapce.cfg:38
+#: Brave_Wings/units/Infiltrative_Carapace.cfg:44
 msgid "babble"
 msgstr "泡"
 
@@ -4379,9 +4344,8 @@ msgstr ""
 
 #. [unit_type]: id=Phantom Dragon, race=undead
 #: Brave_Wings/units/Phantom_Dragon.cfg:4
-#, fuzzy
 msgid "Phantom Dragon"
-msgstr "ドラゴン"
+msgstr "ドラゴンの亡霊"
 
 #. [unit_type]: id=Phantom Dragon, race=undead
 #: Brave_Wings/units/Phantom_Dragon.cfg:22
@@ -4398,10 +4362,10 @@ msgstr ""
 msgid "jaw"
 msgstr ""
 
-#. [attack]: type=blade
 #. [attack]: type=impact
-#: Brave_Wings/units/Phantom_Dragon.cfg:123
+#. [attack]: type=blade
 #: Brave_Wings/units/Water_Savage.cfg:25
+#: Brave_Wings/units/Phantom_Dragon.cfg:123
 msgid "claws"
 msgstr "爪"
 
@@ -4448,8 +4412,8 @@ msgstr ""
 
 #. [unit_type]: id=Drake Outcast, race=drake
 #. [unit_type]: id=Wose Outcast, race=wose
-#: Brave_Wings/units/Wose_Outcast.cfg:20
 #: Brave_Wings/units/drakes/Drake_Outcast.cfg:20
+#: Brave_Wings/units/Wose_Outcast.cfg:20
 msgid ""
 "The technique of animating a dead body is unfortunately well-known to the "
 "dark arts; practitioners often use it to raise servants and soldiers from "
@@ -4496,8 +4460,8 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=fire
-#: Brave_Wings/units/drakes/Drake_Adventurer.cfg:146
 #: Brave_Wings/units/drakes/Drake_Ranger.cfg:148
+#: Brave_Wings/units/drakes/Drake_Adventurer.cfg:146
 msgid "torch"
 msgstr "トーチ"
 
@@ -4521,14 +4485,14 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Brave_Wings/units/drakes/Drake_Alchemist.cfg:168
 #: Brave_Wings/units/drakes/Esoteric.cfg:172
+#: Brave_Wings/units/drakes/Drake_Alchemist.cfg:168
 msgid "staff"
 msgstr "杖"
 
 #. [attack]: type=arcane
-#: Brave_Wings/units/drakes/Drake_Alchemist.cfg:186
 #: Brave_Wings/units/drakes/Esoteric.cfg:193
+#: Brave_Wings/units/drakes/Drake_Alchemist.cfg:186
 msgid "crystal fire"
 msgstr "クリスタルファイヤー"
 
@@ -4545,11 +4509,11 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: Brave_Wings/units/drakes/Drake_Brave.cfg:150
-#: Brave_Wings/units/drakes/Drake_Hero.cfg:151
-#: Brave_Wings/units/drakes/Drake_Lord.cfg:131
-#: Brave_Wings/units/drakes/Drake_Outcast.cfg:47
 #: Brave_Wings/units/drakes/Great_Drake.cfg:155
+#: Brave_Wings/units/drakes/Drake_Lord.cfg:131
+#: Brave_Wings/units/drakes/Drake_Hero.cfg:151
+#: Brave_Wings/units/drakes/Drake_Outcast.cfg:47
+#: Brave_Wings/units/drakes/Drake_Brave.cfg:150
 #: Brave_Wings/units/drakes/Sword_Drake.cfg:138
 msgid "sword"
 msgstr "剣"
@@ -4663,7 +4627,7 @@ msgstr ""
 "た。なぜなら、彼らは皆、暇な護衛より戦が好きだったからでした。"
 
 #. [part]
-#: Brave_Wings/utils/bw-intro.cfg:9
+#: Brave_Wings/utils/bw-intro.cfg:10
 msgid ""
 "These conflicts were of no importance to drakes and their lord, Eagi-Nyess, "
 "living on Shimmering Isle. The island were north and west of Wesnoth, and "
@@ -4713,7 +4677,7 @@ msgstr ""
 "大きく散乱させたのでした。"
 
 #. [part]
-#: Brave_Wings/utils/bw-intro.cfg:18
+#: Brave_Wings/utils/bw-intro.cfg:20
 msgid ""
 "This was soon recognized as a great victory for the Drakes. A memorial, a "
 "Flame of Braves, was built to honor the fallen Drakes and the many victims "
@@ -4919,28 +4883,28 @@ msgstr "盗賊は大体、宝をどこかに隠しとくベサ。"
 msgid "You gain a bonus of +1 movement only for Anguiron unit!"
 msgstr "アンギロンに限り、ボーナスで移動力が１つ増えます。"
 
+#. [option]: id=bw_glider_trait, speaker=narrator
+#. [option]: id=bw_fighter_trait, speaker=narrator
 #. [option]: id=bw_burner_trait, speaker=narrator
 #. [option]: id=bw_clasher_trait, speaker=narrator
-#. [option]: id=bw_fighter_trait, speaker=narrator
-#. [option]: id=bw_glider_trait, speaker=narrator
 #: Brave_Wings/utils/bw-utils.cfg:511 Brave_Wings/utils/bw-utils.cfg:585
 #: Brave_Wings/utils/bw-utils.cfg:659 Brave_Wings/utils/bw-utils.cfg:733
 msgid "This drake should be a quick unit."
 msgstr "このドレークは素早いユニットへ。"
 
+#. [option]: id=bw_glider_trait, speaker=narrator
+#. [option]: id=bw_fighter_trait, speaker=narrator
 #. [option]: id=bw_burner_trait, speaker=narrator
 #. [option]: id=bw_clasher_trait, speaker=narrator
-#. [option]: id=bw_fighter_trait, speaker=narrator
-#. [option]: id=bw_glider_trait, speaker=narrator
 #: Brave_Wings/utils/bw-utils.cfg:532 Brave_Wings/utils/bw-utils.cfg:606
 #: Brave_Wings/utils/bw-utils.cfg:680 Brave_Wings/utils/bw-utils.cfg:754
 msgid "This drake should be a strong unit."
 msgstr "このドレークは力強いユニットへ。"
 
+#. [option]: id=bw_glider_trait, speaker=narrator
+#. [option]: id=bw_fighter_trait, speaker=narrator
 #. [option]: id=bw_burner_trait, speaker=narrator
 #. [option]: id=bw_clasher_trait, speaker=narrator
-#. [option]: id=bw_fighter_trait, speaker=narrator
-#. [option]: id=bw_glider_trait, speaker=narrator
 #: Brave_Wings/utils/bw-utils.cfg:553 Brave_Wings/utils/bw-utils.cfg:627
 #: Brave_Wings/utils/bw-utils.cfg:701 Brave_Wings/utils/bw-utils.cfg:775
 msgid "The traits should just be a random."
